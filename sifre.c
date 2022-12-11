@@ -23,7 +23,9 @@ void shift(char *kelime, int anahtar){
 	}
 }
 int main(){
-	char kelime[100]="baba";
+	char kelime[100];
+	printf("metni gir: ");
+	scanf("%s",&kelime);
 	shift(kelime,2);
 	printf("sifreli: %s\n",kelime);
 	shift(kelime,-2);
