@@ -23,7 +23,7 @@ void shift(char *kelime, int anahtar){
 	}
 }
 int main(){
-	char kelime[100] = "baba";
+	char kelime[100] = "ferhat cicek";
 	shift(kelime,2);
 	printf("sifreli: %s\n",kelime);
 	shift(kelime,-2);
